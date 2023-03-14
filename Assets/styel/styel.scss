@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 .container {
-  border: 1px solid green;
   background: #eeeeee;
   header {
     display: flex;
@@ -5555,6 +5554,7 @@
       }
     }
     .section_seven {
+        margin: auto;
       padding: 88px 120px 57px;
       .section_seven_item {
         &:nth-of-type(1) {
@@ -6162,11 +6162,10 @@
               &:nth-of-type(2) {
                 .section_seven_item_child_row {
                   display: grid;
-                  justify-content: center;
+                  justify-content: flex-start;
                   margin-bottom: 50px;
                   .section_seven_item_child_row_col {
-                    margin: 64px 0px;
-
+                    padding-left: 40px;
                     h1 {
                       font-size: 24px;
                       line-height: 32px;
@@ -6200,8 +6199,8 @@
                     justify-content: flex-end;
 
                     .section_seven_item_child_row_img_child {
-                      width: 300px;
-                      height: 300px;
+                      width: 280px;
+                      height: 280px;
                     }
                   }
                 }
@@ -6252,7 +6251,7 @@
                   margin-bottom: 45px;
                   .section_seven_item_child_row_col {
                     margin: 54px 0px;
-
+                    padding-left: 30px;
                     h1 {
                       font-size: 23px;
                       line-height: 31px;
@@ -6280,9 +6279,6 @@
                     }
                   }
                   .section_seven_item_child_row_img {
-                    display: flex;
-                    justify-content: flex-end;
-
                     .section_seven_item_child_row_img_child {
                       width: 280px;
                       height: 280px;
@@ -6364,6 +6360,8 @@
                     }
                   }
                   .section_seven_item_child_row_img {
+                    display: flex;
+                    justify-content: flex-start;
                     .section_seven_item_child_row_img_child {
                       width: 260px;
                       height: 260px;
@@ -6820,6 +6818,7 @@
                   margin-bottom: 25px;
                   .section_seven_item_child_row_col {
                     margin: 25px 0px;
+                    padding-left: 20px;
                     h1 {
                       font-size: 15px;
                       line-height: 23px;
@@ -6930,7 +6929,7 @@
                   }
                   .section_seven_item_child_row_img {
                     display: flex;
-                    justify-content: center;
+                    justify-content: flex-start;
                     .section_seven_item_child_row_img_child {
                       width: 90px;
                       height: 90px;
@@ -7158,6 +7157,7 @@
     justify-content: space-between;
     background-color: #f2f3f4;
     .footer_logo {
+        margin: auto;
       width: 85px;
       height: 24px;
       img {
@@ -7677,6 +7677,8 @@
             }
             &:nth-of-type(3) {
               .footer_info_child_button {
+                display: flex;
+                justify-content: center;
                 gap: 11px;
                 .footer_info_child_button{
                     width: 20px;
